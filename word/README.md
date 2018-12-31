@@ -5,9 +5,17 @@
 ## All the algorithms
 
 ``` javascript
-Shortest path:      PATH(G; s, t)
-Eulerian circuit:   FLEURY(G)
-
+BFS search:                     SEARCH(G, s)    // s is the source node
+Subgraphs:                      SUB-GRAPH(G)
+Minimal K-tree:                 K-TREE(G, k)    // k is an integer
+shortest path:                  PATH(G; s, t)   // default as weighted
+shortest-path insert            HSCSP(G; s, t)
+path insert (num)               SCSP(G; s, t)   // if weighted -> NP-hard
+Eulerian circuit:               FLEURY(G)
+Arch connectiviey:              AC(G)
+Maximum flow:                   MAXFLOW(G; s, t)
+Chinese postman problem:        POSTMAN-ROUTE(G)
+Augmented path in bi-graph:     R(B, M)
 ```
 
 ## Algorithm format
